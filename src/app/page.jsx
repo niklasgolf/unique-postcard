@@ -1,6 +1,6 @@
 'use client';
 
-import { useAuth } from './context/AuthContext';
+import { useAuth } from '../context/AuthContext';
 
 export default function Home() {
   const { user, signIn } = useAuth();
@@ -19,7 +19,7 @@ export default function Home() {
       borderRadius: 'var(--border-radius)'
     }}>
       <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--primary-color)' }}>
-        Welcome to the Unique Postcard App 🎉
+        Welcome to the Unique Postcard NApp 🎉
       </h2>
       <p style={{ fontSize: '1.2rem', maxWidth: '600px', lineHeight: '1.6' }}>
         This is a creative space where you can design your own personalized postcards.

@@ -1,0 +1,114 @@
+.wrapper {
+  padding: 1rem 0;
+}
+
+.heading {
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.backgroundWrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.bgImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  color: #000;
+}
+
+.recipient {
+  position: absolute;
+  top: 38.5%;
+  left: 61.5%;
+  width: 32%;
+  height: 5%;
+  font-weight: 600;
+  font-size: 1.1rem;
+  overflow: hidden;
+  border: 1px solid red;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.address {
+  position: absolute;
+  top: 45%;
+  left: 61.5%;
+  width: 32%;
+  height: 26%;
+  font-weight: 500;
+  font-size: 1rem;
+  white-space: pre-wrap;
+  border: 1px solid blue;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.message {
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  width: 50%;
+  height: 52%;
+  font-size: 1rem;
+  white-space: pre-wrap;
+  line-height: 1.4;
+  border: 1px solid green;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0.5rem;
+}
+
+.frontside {
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+/* New Save Button Style */
+.saveButton {
+  margin: 1.5rem auto 0 auto;
+  display: block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.saveButton:hover {
+  background-color: #004080; /* darker version of primary color on hover */
+}

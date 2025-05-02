@@ -1,0 +1,16 @@
+.layout {
+    display: flex;
+    min-height: 90vh;
+  }
+  
+  .leftPane {
+    flex: 1;
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+  }
+  
+  .rightPane {
+    flex: 1;
+    padding: 1rem;
+  }
+  

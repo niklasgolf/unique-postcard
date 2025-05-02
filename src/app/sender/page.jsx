@@ -1,18 +1,20 @@
 'use client';
-import { usePostcard } from "../context/PostcardContext";
+
+import { usePostcard } from '../../context/PostcardContext';
+import styles from './sender.module.css';
 
 export default function SenderEditor() {
   const { sender, setSender } = usePostcard();
 
   return (
-    <div>
-      <h2>Edit Sender</h2>
+    <div className={styles.container}>
+      <h2 className={styles.heading}>Edit Sender</h2>
       <input
         type="text"
         value={sender}
         onChange={(e) => setSender(e.target.value)}
         placeholder="Enter sender name"
-        style={{ width: "100%", padding: "0.5rem", fontSize: "1rem" }}
+        className={styles.input}
       />
     </div>
   );

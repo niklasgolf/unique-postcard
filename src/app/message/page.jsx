@@ -1,18 +1,20 @@
 'use client';
-import { usePostcard } from "../context/PostcardContext";
+
+import { usePostcard } from '../../context/PostcardContext';
+import styles from './message.module.css';
 
 export default function MessageEditor() {
   const { message, setMessage } = usePostcard();
 
   return (
-    <div>
-      <h2>Edit Message</h2>
+    <div className={styles.container}>
+      <h2 className={styles.heading}>Edit Message</h2>
       <textarea
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         placeholder="Write your message"
         rows={14}
-        style={{ width: "100%", padding: "0.5rem", fontSize: "1rem" }}
+        className={styles.textarea}
       />
     </div>
   );
