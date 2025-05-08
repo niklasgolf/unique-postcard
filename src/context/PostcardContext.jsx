@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { createContext, useContext, useState } from "react";
 
@@ -9,16 +9,24 @@ export function PostcardProvider({ children }) {
   const [message, setMessage] = useState("");
   const [sender, setSender] = useState("");
   const [recipient, setRecipient] = useState("");
-  const [imageUrl, setImageUrl] = useState(""); // ✅ Added field
+  const [imageUrl, setImageUrl] = useState("");
+  const [editingId, setEditingId] = useState(null); // ✅ track editing state
 
   return (
     <PostcardContext.Provider
       value={{
-        address, setAddress,
-        message, setMessage,
-        sender, setSender,
-        recipient, setRecipient,
-        imageUrl, setImageUrl // ✅ Added to context
+        address,
+        setAddress,
+        message,
+        setMessage,
+        sender,
+        setSender,
+        recipient,
+        setRecipient,
+        imageUrl,
+        setImageUrl,
+        editingId,
+        setEditingId,
       }}
     >
       {children}

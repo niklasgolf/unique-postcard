@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { usePostcard } from '../../context/PostcardContext';
-import styles from './message.module.css';
+import { usePostcard } from "../../context/PostcardContext";
+import styles from "./message.module.css";
 
 export default function MessageEditor() {
   const { message, setMessage } = usePostcard();

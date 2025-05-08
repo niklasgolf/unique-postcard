@@ -4,10 +4,19 @@ import { useEffect, useState } from "react";
 import { getUserPostcards, deletePostcard } from "../../lib/firestoreHelpers";
 import styles from "./all-postcards.module.css";
 import { useAuth } from "../../context/AuthContext";
+import { usePostcard } from "../../context/PostcardContext";
 
 export default function AllPostcardsPage() {
   const [postcards, setPostcards] = useState([]);
   const { user } = useAuth();
+  const {
+    setAddress,
+    setMessage,
+    setSender,
+    setRecipient,
+    setImageUrl,
+    setEditingId,
+  } = usePostcard();
 
   useEffect(() => {
     async function fetchData() {
@@ -32,9 +41,19 @@ export default function AllPostcardsPage() {
     }
   };
 
+  const handleEdit = (card) => {
+    setAddress(card.address);
+    setMessage(card.message);
+    setSender(card.sender);
+    setRecipient(card.recipient);
+    setImageUrl(card.imageUrl);
+    setEditingId(card.id);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div className={styles.container}>
-      <h2 className={styles.heading}>📬 Your Postcards</h2>
+      <h2 className={styles.heading}>Your Postcards</h2>
       {postcards.length === 0 && (
         <p className={styles.info}>No postcards found.</p>
       )}
@@ -55,7 +74,20 @@ export default function AllPostcardsPage() {
             <p>
               <strong>From:</strong> {card.sender}
             </p>
-            <button onClick={() => handleDelete(card.id)}>Delete</button>
+            <div className={styles.buttonGroup}>
+              <button
+                onClick={() => handleDelete(card.id)}
+                className={styles.buttonDelete}
+              >
+                Delete
+              </button>
+              <button
+                onClick={() => handleEdit(card)}
+                className={styles.buttonEdit}
+              >
+                Edit
+              </button>
+            </div>
           </div>
         </div>
       ))}
