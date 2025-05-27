@@ -5,7 +5,7 @@ import { getDocs, collection } from "firebase/firestore";
 import { db } from "../../lib/firebase";
 import styles from "./Allpostcards.module.css";
 
-export default function AllpostcardsMain() {
+export default function AllpostcardsModule() {
   const [postcardsByUser, setPostcardsByUser] = useState([]);
 
   const knownUsers = [

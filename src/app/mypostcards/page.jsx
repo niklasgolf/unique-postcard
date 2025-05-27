@@ -1,6 +1,6 @@
 "use client";
-import MypostcardsMain from "./MypostcardsMain.jsx";
+import MypostcardsModule from "./MypostcardsModule.jsx";
 
 export default function MypostcardsPage() {
-  return <MypostcardsMain />;
+  return <MypostcardsModule />;
 }

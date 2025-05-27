@@ -1,6 +1,6 @@
 "use client";
-import AddressMain from "./AddressMain.jsx";
+import AddressModule from "./AddressModule.jsx";
 
 export default function Address() {
-  return <AddressMain />;
+  return <AddressModule />;
 }

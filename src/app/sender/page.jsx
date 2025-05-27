@@ -1,6 +1,6 @@
 "use client";
-import SenderMain from "./SenderMain.jsx";
+import SenderModule from "./SenderModule.jsx";
 
 export default function Sender() {
-  return <SenderMain />;
+  return <SenderModule />;
 }

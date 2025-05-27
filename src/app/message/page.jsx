@@ -1,6 +1,6 @@
 "use client";
-import MessageMain from "./MessageMain.jsx";
+import MessageModule from "./MessageModule.jsx";
 
 export default function Message() {
-  return <MessageMain />;
+  return <MessageModule />;
 }

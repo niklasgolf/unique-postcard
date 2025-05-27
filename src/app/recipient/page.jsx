@@ -1,6 +1,6 @@
 "use client";
-import RecipientMain from "./RecipientMain.jsx";
+import RecipientModule from "./RecipientModule.jsx";
 
 export default function Recipient() {
-  return <RecipientMain />;
+  return <RecipientModule />;
 }

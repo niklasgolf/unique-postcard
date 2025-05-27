@@ -1,6 +1,6 @@
 "use client";
-import PostcardimageMain from "./PostcardimageMain.jsx";
+import PostcardimageModule from "./PostcardimageModule.jsx";
 
 export default function PostcardImage() {
-  return <PostcardimageMain />;
+  return <PostcardimageModule />;
 }

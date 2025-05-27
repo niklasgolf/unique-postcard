@@ -3,7 +3,7 @@
 import { usePostcard } from "../../context/PostcardContext";
 import styles from "./Postcardimage.module.css";
 
-export default function PostcardimageMain() {
+export default function PostcardimageModule() {
   const { imageUrl, setImageUrl } = usePostcard();
 
   return (

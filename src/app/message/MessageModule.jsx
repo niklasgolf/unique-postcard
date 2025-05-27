@@ -3,12 +3,12 @@
 import { usePostcard } from "../../context/PostcardContext";
 import styles from "./Message.module.css";
 
-export default function MessageMain() {
+export default function MessageModule() {
   const { message, setMessage } = usePostcard();
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.heading}>Edit XXX Message</h2>
+      <h2 className={styles.heading}>Edit Message</h2>
       <textarea
         value={message}
         onChange={(e) => setMessage(e.target.value)}

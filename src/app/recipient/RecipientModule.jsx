@@ -3,7 +3,7 @@
 import { usePostcard } from "../../context/PostcardContext";
 import styles from "./Recipient.module.css";
 
-export default function RecipientMain() {
+export default function RecipientModule() {
   const { recipient, setRecipient } = usePostcard();
 
   return (
