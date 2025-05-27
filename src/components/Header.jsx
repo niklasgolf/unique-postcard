@@ -12,7 +12,7 @@ export default function Header() {
       <div className={styles.container}>
         {/* Left */}
         <div className={styles.left}>
-          <h1 className={styles.title}>Unique Postcard</h1>
+          <h1 className={styles.title}>Unique TTT Postcard</h1>
           <p className={styles.user}>{user?.email || "guest"}</p>
         </div>
 
