@@ -2,7 +2,8 @@
 
 import { usePostcard } from "../context/PostcardContext";
 import { useAuth } from "../context/AuthContext";
-import { savePostcardForUser, addPostcard } from "../lib/firestoreHelpers";
+// import { savePostcardForUser, addPostcard } from "../lib/firestoreHelpers";//23 maj
+import { savePostcardForUser } from "../lib/firestoreHelpers";
 import { doc, setDoc } from "firebase/firestore";
 import { db } from "../lib/firebase";
 import bgImage from "../images/vykort_bakgrund.png";
@@ -50,8 +51,10 @@ export default function PostcardDisplay() {
           imageUrl,
           user: user.email,
         };
+        // await savePostcardForUser(user.email, postcardData);//23 maj
+        // await addPostcard(postcardData);//23 maj
         await savePostcardForUser(user.email, postcardData);
-        await addPostcard(postcardData);
+        // await addPostcard(postcardData);//borttaget
         alert("Postcard saved to your account and published publicly!");
       }
     } catch (err) {

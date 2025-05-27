@@ -2,11 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { getUserPostcards, deletePostcard } from "../../lib/firestoreHelpers";
-import styles from "./all-postcards.module.css";
+import styles from "./Mypostcards.module.css";
 import { useAuth } from "../../context/AuthContext";
 import { usePostcard } from "../../context/PostcardContext";
 
-export default function AllPostcardsPage() {
+export default function MypostcardsMain() {
   const [postcards, setPostcards] = useState([]);
   const { user } = useAuth();
   const {
@@ -53,7 +53,7 @@ export default function AllPostcardsPage() {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.heading}>Your Postcards</h2>
+      <h2 className={styles.heading}>My Postcards</h2>
       {postcards.length === 0 && (
         <p className={styles.info}>No postcards found.</p>
       )}

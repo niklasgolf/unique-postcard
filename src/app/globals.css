@@ -90,7 +90,8 @@ button:hover {
   transform: translateY(-1px);
 }
 
-h1, h2 {
+h1,
+h2 {
   color: var(--primary-color);
   margin-bottom: 1rem;
 }
@@ -121,4 +122,3 @@ html {
     --input-focus-ring: rgba(92, 124, 250, 0.2);
   }
 }
-

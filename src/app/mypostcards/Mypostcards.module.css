@@ -1,0 +1,59 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.heading {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.info {
+  font-style: italic;
+  color: #666;
+}
+
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 50%;
+  object-fit: cover;
+}
+
+.details {
+  padding: 1rem;
+  width: 50%;
+  background-color: #f9f9f9;
+}
+
+.buttonDelete {
+  border: 2px solid red;
+  color: red;
+  background: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.buttonEdit {
+  border: 2px solid #007BFF;
+  color: #007BFF;
+  background: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}

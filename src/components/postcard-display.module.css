@@ -110,5 +110,6 @@
 }
 
 .saveButton:hover {
-  background-color: #004080; /* darker version of primary color on hover */
+  background-color: #004080;
+  /* darker version of primary color on hover */
 }

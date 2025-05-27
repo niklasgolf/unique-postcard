@@ -9,6 +9,13 @@
   margin-bottom: 1rem;
 }
 
+.subheading {
+  font-size: 1.2rem;
+  margin: 1.5rem 0 0.5rem;
+  font-weight: bold;
+  color: #444;
+}
+
 .info {
   font-style: italic;
   color: #666;
@@ -20,7 +27,7 @@
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .image {
@@ -34,26 +41,7 @@
   background-color: #f9f9f9;
 }
 
-.buttonDelete {
-  border: 2px solid red;
-  color: red;
-  background: white;
-  padding: 0.4rem 0.8rem;
-  border-radius: 6px;
-  cursor: pointer;
-}
 
-.buttonEdit {
-  border: 2px solid #007BFF;
-  color: #007BFF;
-  background: white;
-  padding: 0.4rem 0.8rem;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.buttonGroup {
-  display: flex;
-  gap: 0.5rem;
-  margin-top: 1rem;
+.group {
+  margin-bottom: 2.5rem;
 }

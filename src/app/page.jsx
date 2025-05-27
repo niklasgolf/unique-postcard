@@ -26,7 +26,7 @@ export default function Home() {
         Use the editor to write heartfelt messages and enter addresses — all in one place.
         Your changes update in real-time, so you can preview exactly what your recipient will see.
         <br /><br />
-        Start by clicking on <strong>Message</strong> to write your message, or <strong>Address</strong> to fill in recipient details.  
+        Start by clicking on <strong>Message</strong> to write your message, or <strong>Address</strong> to fill in recipient details.
         When you're ready, your custom postcard will be waiting on the left.
       </p>
 

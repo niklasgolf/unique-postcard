@@ -17,3 +17,13 @@
   border-radius: 6px;
   background-color: #fff;
 }
+
+.previewWrapper {
+  margin-top: 1rem;
+}
+
+.previewImage {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
