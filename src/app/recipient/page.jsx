@@ -1,6 +1,6 @@
 "use client";
-import RecipientModule from "./RecipientModule.jsx";
+import Recipient from "./Recipient.jsx";
 
-export default function Recipient() {
-  return <RecipientModule />;
+export default function Page() {
+  return <Recipient />;
 }

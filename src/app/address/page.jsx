@@ -1,6 +1,6 @@
 "use client";
-import AddressModule from "./AddressModule.jsx";
+import Address from "./Address.jsx";
 
-export default function Address() {
-  return <AddressModule />;
+export default function Page() {
+  return <Address />;
 }
