@@ -6,7 +6,7 @@ import styles from "./Mypostcards.module.css";
 import { useAuth } from "../../context/AuthContext";
 import { usePostcard } from "../../context/PostcardContext";
 
-export default function MypostcardsModule() {
+export default function Mypostcards() {
   const [postcards, setPostcards] = useState([]);
   const { user } = useAuth();
   const {
