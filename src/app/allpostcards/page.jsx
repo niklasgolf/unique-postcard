@@ -1,6 +1,6 @@
 "use client";
-import Allpostcards from "./Allpostcards.jsx";
+import AllPostcards from "./AAllPostcards.jsx";
 
 export default function Page() {
-  return <Allpostcards />;
+  return <AllPostcards />;
 }
