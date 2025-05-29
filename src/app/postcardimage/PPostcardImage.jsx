@@ -1,9 +1,9 @@
 "use client";
 
 import { usePostcard } from "../../context/PostcardContext";
-import styles from "./Postcardimage.module.css";
+import styles from "./PostcardImage.module.css";
 
-export default function Postcardimage() {
+export default function PostcardImage() {
   const { imageUrl, setImageUrl } = usePostcard();
 
   return (

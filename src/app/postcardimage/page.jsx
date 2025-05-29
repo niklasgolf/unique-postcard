@@ -1,6 +1,6 @@
 "use client";
-import Postcardimage from "./Postcardimage.jsx";
+import PostcardImage from "./PPostcardImage.jsx";
 
 export default function Page() {
-  return <Postcardimage />;
+  return <PostcardImage />;
 }
