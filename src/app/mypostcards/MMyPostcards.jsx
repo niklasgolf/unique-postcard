@@ -2,11 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { getUserPostcards, deletePostcard } from "../../lib/firestoreHelpers";
-import styles from "./Mypostcards.module.css";
+import styles from "./MyPostcards.module.css";
 import { useAuth } from "../../context/AuthContext";
 import { usePostcard } from "../../context/PostcardContext";
 
-export default function Mypostcards() {
+export default function MyPostcards() {
   const [postcards, setPostcards] = useState([]);
   const { user } = useAuth();
   const {
