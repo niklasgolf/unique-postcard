@@ -29,3 +29,7 @@
 
 ---
 
+## 📚 Developer Documentation
+
+For a full step-by-step setup guide, see the wiki:  
+👉 [Unique-Postcard Creation](https://github.com/niklasgolf/unique-postcard/wiki/Unique%E2%80%90Postcard-Creation)
