@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { getDocs, collection } from "firebase/firestore";
 import { db } from "../../lib/firebase";
-import styles from "./Allpostcards.module.css";
+import styles from "./AllPostcards.module.css";
 
 export default function AllPostcards() {
   const [postcardsByUser, setPostcardsByUser] = useState([]);
