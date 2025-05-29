@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useAuth } from "../context/AuthContext";
-import styles from "./header.module.css";
+import styles from "./Hheader.module.css";
 
 export default function Header() {
   const { user, logOut, signIn } = useAuth();
