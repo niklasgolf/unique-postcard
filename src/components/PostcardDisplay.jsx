@@ -7,7 +7,7 @@ import { savePostcardForUser } from "../lib/firestoreHelpers";
 import { doc, setDoc } from "firebase/firestore";
 import { db } from "../lib/firebase";
 import bgImage from "../images/vykort_bakgrund.png";
-import styles from "./postcard-display.module.css";
+import styles from "./PostcardDisplay.module.css";
 
 export default function PostcardDisplay() {
   const {
