@@ -1,6 +1,5 @@
 ## 📚 Developer Documentation
 
-For a full step-by-step setup guide, see the wiki:  
 👉 [Unique-Postcard Creation](https://github.com/niklasgolf/unique-postcard/wiki/Unique%E2%80%90Postcard-Creation)  
 👉 [Firebase Console Configuration](https://github.com/niklasgolf/unique-postcard/wiki/Firebase-Console-Configuration)  
 👉 [Closed Issues in order of development](https://github.com/niklasgolf/unique-postcard/issues?q=is%3Aissue%20state%3Aclosed)
