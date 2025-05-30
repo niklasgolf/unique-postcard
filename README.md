@@ -1,3 +1,11 @@
+## 📚 Developer Documentation
+
+For a full step-by-step setup guide, see the wiki:  
+👉 [Unique-Postcard Creation](https://github.com/niklasgolf/unique-postcard/wiki/Unique%E2%80%90Postcard-Creation)
+👉 [Firebase Console Configuration](https://github.com/niklasgolf/unique-postcard/wiki/Firebase-Console-Configuration)
+
+---
+
 # ✉️ Unique Postcard
 
 **Unique Postcard** is a minimalist web app where users can create, edit, and share digital postcards. Built with **Next.js 15**, **React 19**, **Firebase**, and **Vercel**, the app provides a beautiful interface for personal expression and asynchronous sharing.
@@ -26,10 +34,3 @@
 - **Auth:** Google Authentication via Firebase
 - **Hosting:** Deployed via [Vercel](https://vercel.com)
 - **Styling:** CSS Modules with a clean, centered layout (mobile optimization in progress)
-
----
-
-## 📚 Developer Documentation
-
-For a full step-by-step setup guide, see the wiki:  
-👉 [Unique-Postcard Creation](https://github.com/niklasgolf/unique-postcard/wiki/Unique%E2%80%90Postcard-Creation)
