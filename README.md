@@ -1,3 +1,11 @@
+## About This Project
+
+This application was developed as part of the 1DV613 Software Development Project course at Linnaeus University, undertaken during the first year of the Web Developer program.
+
+The course is designed to guide students through the full software development process — from initial concept to completed application — with a focus on programming, requirements analysis, project planning, and testing. Development is carried out iteratively using a SCRUM-inspired workflow, supported by regular supervision and an entrepreneurial perspective. The course content is primarily based on Software Engineering (10th edition) by Ian Sommerville.
+
+You can learn more about the course [here](https://coursepress.lnu.se/kurser/mjukvaruutvecklingsprojekt/).
+
 ## 📚 Developer Documentation (Wiki)
 
 👉 [Unique-Postcard Creation](https://github.com/niklasgolf/unique-postcard/wiki/Unique%E2%80%90Postcard-Creation)  
