@@ -1,4 +1,4 @@
-## 📚 Developer Documentation
+## 📚 Developer Documentation (Wiki)
 
 👉 [Unique-Postcard Creation](https://github.com/niklasgolf/unique-postcard/wiki/Unique%E2%80%90Postcard-Creation)  
 👉 [Firebase Console Configuration](https://github.com/niklasgolf/unique-postcard/wiki/Firebase-Console-Configuration)  
