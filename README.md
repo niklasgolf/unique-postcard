@@ -1,6 +1,6 @@
 ## About This Project
 
-This application was developed as part of the 1DV613 Software Development Project course at Linnaeus University, undertaken during the first year of the Web Developer program.
+This application was developed as part of the 1DV613 Software Development Project course at Linnaeus University, undertaken during my first year of the Web Developer program, more specifically may 2025.
 
 The course is designed to guide students through the full software development process — from initial concept to completed application — with a focus on programming, requirements analysis, project planning, and testing. Development is carried out iteratively using a SCRUM-inspired workflow, supported by regular supervision and an entrepreneurial perspective. The course content is primarily based on Software Engineering (10th edition) by Ian Sommerville.
 
