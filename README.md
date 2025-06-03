@@ -8,19 +8,11 @@ You can learn more about the course [here](https://coursepress.lnu.se/kurser/mju
 
 ## 📚 Developer Documentation (Wiki)
 
-👉 [URL till projektets vision](https://github.com/niklasgolf/unique-postcard/wiki/Projektvision)  
-Hmmm
-
-👉 [URL till projektets krav](https://github.com/niklasgolf/unique-postcard/issues?q=is%3Aissue%20state%3Aclosed)  
-Closed Issues in order of development
-
-👉 [URL till projektets testning](https://github.com/niklasgolf/unique-postcard/wiki/Projektvision)  
-Hmmm
-
-Hmmmm
-👉 [Unique-Postcard Creation](https://github.com/niklasgolf/unique-postcard/wiki/Unique%E2%80%90Postcard-Creation)  
-👉 [Firebase Console Configuration](https://github.com/niklasgolf/unique-postcard/wiki/Firebase-Console-Configuration)  
-👉 [Closed Issues in order of development](https://github.com/niklasgolf/unique-postcard/issues?q=is%3Aissue%20state%3Aclosed)
+👉 [URL till projektets vision](https://github.com/niklasgolf/unique-postcard/wiki/Projektvision) Hmmm
+👉 [URL till projektets krav](https://github.com/niklasgolf/unique-postcard/issues?q=is%3Aissue%20state%3Aclosed) Closed Issues in order of development
+👉 [URL till projektets testning](https://github.com/niklasgolf/unique-postcard/wiki/Projektvision) Hmmm
+👉 [Unique-Postcard Creation](https://github.com/niklasgolf/unique-postcard/wiki/Unique%E2%80%90Postcard-Creation) How next.js was installed
+👉 [Firebase Console Configuration](https://github.com/niklasgolf/unique-postcard/wiki/Firebase-Console-Configuration) How firebase was configured
 
 ---
 
